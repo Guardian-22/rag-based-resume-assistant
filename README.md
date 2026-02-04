@@ -34,8 +34,19 @@ poetry install
 ```
 
 ### Make sure Ollama is installed and models are available
+To run the local LLMs (like Llama 3.1:8B) required by this project, you need to install Ollama first.
+Download and install Ollama for your platform here:
+👉 https://ollama.com/download
 
+After installing, you can verify your installation:
+```bash
+ollama version
+```
+And pull a model like Llama 3.1:
+```bash
+ollama pull llama3.1:8b
 
+```
 ### To Run :- 
 ```bash
 poetry run streamlit run src/rag_based_resume_assistant/app.py
