@@ -23,7 +23,7 @@ Streamlit UI: Clean, interactive interface for testing and exploring the assista
 ### Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/rag-based-resume-assistant.git
+git clone https://github.com/Guardian-22/rag-based-resume-assistant.git
 ```
 ```bash
 cd rag-based-resume-assistant
