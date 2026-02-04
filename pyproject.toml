@@ -1,0 +1,24 @@
+[project]
+name = "rag-based-resume-assistant"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Kshitij Lalge",email = "kshitijlalge@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11,<3.15"
+dependencies = [
+    "pypdf (>=6.6.2,<7.0.0)",
+    "faiss-cpu (>=1.13.2,<2.0.0)",
+    "langchain-ollama (>=1.0.1,<2.0.0)",
+    "langchain-community (>=0.4.1,<0.5.0)",
+    "langchain-text-splitters (>=1.1.0,<2.0.0)",
+    "streamlit (>=1.54.0,<2.0.0)"
+]
+
+[tool.poetry]
+packages = [{include = "rag_based_resume_assistant", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
